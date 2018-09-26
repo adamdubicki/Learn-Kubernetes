@@ -1,0 +1,20 @@
+{
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adamdubicki/Learn-Kubernetes.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adamdubicki/Learn-Kubernetes/issues"
+  },
+  "homepage": "https://github.com/adamdubicki/Learn-Kubernetes#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
