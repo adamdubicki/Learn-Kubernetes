@@ -25,13 +25,13 @@ after_success:
 
 deploy:
   provider: elasticbeanstalk
-  region: "ca-central-1"
-  app: "change-this"
-  env: "elasticbeanstalk-env"
-  bucket_name: "s3-bucket-name"
-  bucket_path: "bucket-path"
+  region: us-west-1
+  app: multi-docker
+  env: MultiDocker-env
+  bucket_name: <some bucket name>
+  bucket_path: docker-multi
   on:
     branch: master
-  access_key_id: "access key"
+  access_key_id: $AWS_ACCESS_KEY
   secret_access_key:
-      secure: "$AWS_SECRET_KEY"
+    secure: $AWS_SECRET_KEY
